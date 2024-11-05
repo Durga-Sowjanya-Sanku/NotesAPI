@@ -1,0 +1,21 @@
+{
+  "name": "notesapi",
+  "version": "2.0.0",
+  "description": "An Api which helps in creating, updating, deleting notes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "js"
+  ],
+  "author": "Sowjanya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.0",
+    "validator": "^13.12.0"
+  }
+}
