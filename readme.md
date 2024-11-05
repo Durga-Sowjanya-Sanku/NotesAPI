@@ -2,16 +2,19 @@
 
 ### Creating a notes
 POST /create
+```
 {
     "username": "your_username",
     "title": "note_title",
     "content": "note_content",
     "author": "author_name"
 }
+```
 
 
 ### Updating a note
 PUT /update/<username>
+```
 [
     {
         "title": "old_note_title",
@@ -22,12 +25,13 @@ PUT /update/<username>
         "content": "new_note_content"
     }
 ]
-
+```
 ### Deleting a note
 DELETE /delete/<username>
+```
 {
     "title": "note_title"
 }
-
+```
 ### Listing notes
 GET /list/<username>
